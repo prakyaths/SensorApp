@@ -77,5 +77,5 @@ MIT License
 
 ## Author
 
-Your Name - [GitHub Profile](https://github.com/prakyaths)
+Prakyath - [GitHub Profile](https://github.com/prakyaths)
 
