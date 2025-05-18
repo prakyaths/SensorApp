@@ -1,0 +1,8 @@
+cc_binary(
+    name = "sensor_app",
+    srcs = ["main.cpp"],
+    deps = [
+        "//sensor:sensor",
+        "//logger:logger",
+    ],
+)
