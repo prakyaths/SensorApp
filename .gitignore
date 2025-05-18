@@ -1,32 +1,47 @@
-# Prerequisites
-*.d
+# Bazel build artifacts
+bazel-*
+bazel-out/
+bazel-bin/
+bazel-testlogs/
+bazel-cache/
 
-# Compiled Object files
-*.slo
-*.lo
+# Bazel module lockfile (optional)
+MODULE.bazel.lock
+
+# General build and temp files
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
+*.lo
 *.la
+*.al
+*.libs
 *.a
-*.lib
+*.so
+*.so.*
+*.d
+*.dSYM/
+*.swp
+*.swo
+*.tmp
+*.log
 
-# Executables
+# Compiled object files and binaries
 *.exe
 *.out
-*.app
+
+# CMake (if any legacy CMake files exist)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Mac & Linux
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
