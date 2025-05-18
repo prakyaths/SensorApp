@@ -64,8 +64,7 @@ bazel run //app:sensor_app
 - Add multithreading support with C++ std::thread and synchronization  
 - Integrate POSIX system programming examples  
 - Extend sensor simulation with more realistic data sources  
-- Implement logging levels and file output for Logger  
-- Prepare for advanced interview topics with modular code
+- Implement logging levels and file output for Logger
 
 ---
 
